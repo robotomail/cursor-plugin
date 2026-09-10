@@ -8,8 +8,7 @@ name through Robotomail's hosted MCP service.
 
 **Invite-only preview.** Your Robotomail account must have Connections enabled.
 This Robotomail-maintained package is prepared for the Cursor Marketplace used
-by Grok Bot. Marketplace review and approval are pending; there is no published
-marketplace listing yet. Contact [Robotomail support](mailto:support@robotomail.com)
+by Grok Bot. This package has not been submitted to or approved by the marketplace yet. Contact [Robotomail support](mailto:support@robotomail.com)
 about availability.
 
 ## Connect before marketplace approval
@@ -118,6 +117,9 @@ The package follows the [Cursor plugin reference](https://cursor.com/docs/refere
 [plugin template](https://github.com/cursor/plugin-template), and
 [official plugin examples](https://github.com/cursor/plugins). After review,
 installation will be available through the approved marketplace listing.
+
+For Claude, Claude Code, ChatGPT testing and Codex, see the
+[shared Connections guide](working-docs/connections.md).
 
 ## Support and privacy
 
