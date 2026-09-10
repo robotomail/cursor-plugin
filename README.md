@@ -118,9 +118,6 @@ The package follows the [Cursor plugin reference](https://cursor.com/docs/refere
 [official plugin examples](https://github.com/cursor/plugins). After review,
 installation will be available through the approved marketplace listing.
 
-For Claude, Claude Code, ChatGPT testing and Codex, see the
-[shared Connections guide](working-docs/connections.md).
-
 ## Support and privacy
 
 - [Support](mailto:support@robotomail.com)

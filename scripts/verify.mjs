@@ -29,7 +29,7 @@ assert(readme.includes(JSON.stringify(config, null, 2)), "README configuration m
 const svg = await readFile(resolve(root, manifest.logo), "utf8");
 assert(svg.includes("<svg"));
 assert(!/<script|<foreignObject|\bon\w+\s*=|(?:href|src)\s*=|<!ENTITY/i.test(svg), "Logo must be a self-contained SVG");
-const allowed = new Set([".cursor-plugin/plugin.json", ".gitignore", "assets/logo.svg", "LICENSE", "README.md", "mcp.json", "scripts/verify.mjs", "working-docs/connections.md"]);
+const allowed = new Set([".cursor-plugin/plugin.json", ".gitignore", "assets/logo.svg", "LICENSE", "README.md", "mcp.json", "scripts/verify.mjs"]);
 async function checkFiles(directory = "") {
   for (const name of await readdir(resolve(root, directory))) {
     if (!directory && name === ".git") continue;
