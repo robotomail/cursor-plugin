@@ -6,16 +6,15 @@ Give your agent access to its [Robotomail](https://robotomail.com) mailbox. Sear
 and read messages, send email, reply in existing threads, and set a friendly From
 name through Robotomail's hosted MCP service.
 
-**Invite-only preview.** Your Robotomail account must have Connections enabled.
-This Robotomail-maintained package is prepared for the Cursor Marketplace used
-by Grok Bot. This package has not been submitted to or approved by the marketplace yet. Contact [Robotomail support](mailto:support@robotomail.com)
-about availability.
+This plugin is maintained by Robotomail. Connect your account with OAuth to give
+Grok Bot or Cursor access to your mailboxes.
 
-## Connect before marketplace approval
+## Connect Robotomail
 
-Use a current version of Grok Bot or Cursor and an enabled Robotomail account
-with a mailbox. No local server, package installation, API key, or client secret
-is required.
+Use a current version of Grok Bot or Cursor and a Robotomail account with a
+mailbox. [Create your account](https://robotomail.com/sign-up) if you need one.
+You can connect directly with the configuration below. No local server, API key,
+or client secret is required.
 
 - **Grok Bot:** ask it to add Robotomail as a custom MCP server using the
   configuration below. Choose **Authenticate**, sign in to Robotomail in your
@@ -110,16 +109,15 @@ node scripts/verify.mjs --live
 The first command validates package references and the public OAuth configuration.
 The second also checks public discovery, client callback registration, and that
 unauthenticated MCP access is rejected. It does not sign in, grant access, or send
-email. An authenticated installation check in the current client is still needed
-before marketplace submission; these checks do not imply marketplace approval.
+email. To verify the complete connection, also run the authenticated installation
+and mail delivery checks in the testing guide.
 
 See the [plugin testing guide](docs/testing.md) for loading the package, testing
 alongside an existing custom MCP connection, and exercising all six tools.
 
 The package follows the [Cursor plugin reference](https://cursor.com/docs/reference/plugins),
 [plugin template](https://github.com/cursor/plugin-template), and
-[official plugin examples](https://github.com/cursor/plugins). After review,
-installation will be available through the approved marketplace listing.
+[official plugin examples](https://github.com/cursor/plugins).
 
 ## Support and privacy
 

@@ -1,8 +1,8 @@
 {
   "name": "robotomail",
   "displayName": "Robotomail",
-  "version": "0.1.0",
-  "description": "Search and read your Robotomail mailboxes, send email, reply in threads, and set your sender name. Invite-only preview.",
+  "version": "1.0.0",
+  "description": "Search and read your Robotomail mailboxes, send email, reply in threads, and set your sender name.",
   "author": {
     "name": "Robotomail",
     "email": "support@robotomail.com"

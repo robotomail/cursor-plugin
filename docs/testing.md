@@ -1,8 +1,7 @@
 # Test the Robotomail plugin
 
-You need a current client, an enabled Robotomail account, an existing mailbox,
-and an inbox you own for delivery tests. This package is an invite-only preview
-and has not been submitted to the public marketplace.
+You need a current client, a Robotomail account, an existing mailbox,
+and an inbox you own for delivery tests.
 
 ## If Robotomail is already connected
 
@@ -39,7 +38,7 @@ URL. Review Robotomail through **Add to Marketplace** and choose appropriate
 test access. See [Cursor's team marketplace instructions](https://cursor.com/docs/plugins#add-a-team-marketplace).
 
 Grok Bot inherits Cursor's team connector policy. This makes the team
-marketplace the route to investigate for an unpublished package; importing this
+marketplace the route to investigate for testing a repository version; importing this
 specific repository into Grok Bot has not yet been verified. See
 [Grok Bot team connector policy](https://docs.x.ai/grok-bot/teams-and-enterprises).
 
