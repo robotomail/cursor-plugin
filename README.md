@@ -113,6 +113,9 @@ unauthenticated MCP access is rejected. It does not sign in, grant access, or se
 email. An authenticated installation check in the current client is still needed
 before marketplace submission; these checks do not imply marketplace approval.
 
+See the [plugin testing guide](docs/testing.md) for loading the package, testing
+alongside an existing custom MCP connection, and exercising all six tools.
+
 The package follows the [Cursor plugin reference](https://cursor.com/docs/reference/plugins),
 [plugin template](https://github.com/cursor/plugin-template), and
 [official plugin examples](https://github.com/cursor/plugins). After review,
