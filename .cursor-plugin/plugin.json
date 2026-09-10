@@ -1,0 +1,23 @@
+{
+  "name": "robotomail",
+  "displayName": "Robotomail",
+  "version": "0.1.0",
+  "description": "Search and read your Robotomail mailboxes, send email, reply in threads, and set your sender name. Invite-only preview.",
+  "author": {
+    "name": "Robotomail",
+    "email": "support@robotomail.com"
+  },
+  "homepage": "https://robotomail.com",
+  "repository": "https://github.com/robotomail/cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "robotomail",
+    "email",
+    "mailbox",
+    "mcp",
+    "grok-bot"
+  ],
+  "category": "productivity",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "robotomail": {
+      "type": "http",
+      "url": "https://robotomail.com/mcp",
+      "auth": {
+        "CLIENT_ID": "https://robotomail.com/api/mcp/clients/grok-bot",
+        "scopes": [
+          "mail:read",
+          "mail:send",
+          "offline_access"
+        ]
+      }
+    }
+  }
+}
